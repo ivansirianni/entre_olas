@@ -4,10 +4,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
-
+  box-sizing: border-box;
+}
 
 /*header pagina principal*/
+/*
 .main__header{
     width: 100%;
    display: flex;
@@ -35,9 +36,10 @@
 .header__input{
     width: 15rem;
    border: 0;
-}
+}*/
 
 /*SECCIONES*/
+/*
 .main__page{
     margin-top: 10%;
     height: 20rem;
@@ -48,11 +50,63 @@
     flex-wrap: wrap;
     justify-content: space-evenly;    
 }
-.secciones__info a{
-    text-decoration: none;
+
+*/
+
+.secciones__title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #8a2666;
+}
+.secciones__info a {
+  text-decoration: none;
+  width: 200px;
 }
 
+.secciones__img {
+  width: 136px;
+  height: 167px;
+  fill: #42b3b1;
+}
+.secciones__img :hover {
+ transition:  0.15s ease-out;
+padding: 0;
+margin: 0;
+}
+.secciones__info :hover {
+  transition: 0.15s ease-out;
+  fill: #D7DC74;
+}
+
+
+/*slide*/
+.slide__uppercase {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #42b3b1;
+}
+.slide__p {
+  font-family: "Urbanist";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #737373;
+}
 /*Footer*/
+.main__footer {
+  background-color: #d7dc74;
+} /*
 .main__footer{
     display: flex;
     flex-direction: row;
@@ -63,108 +117,120 @@
     height: 15rem;
 }
 /*footer menu*/
-.footer__menu h4{
-    margin-left: 2.5em ;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: bold;
-    font-size: 1em;
+.footer__menu h4 {
+  margin-left: 2.5em;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.nav__menu li a {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0a142f;
+  opacity: 0.7;
 }
 
 .footer__nav a {
-    text-decoration: none; /* 3 */
-      color: currentColor; /* 4 */      
-      font-weight: bold;
-      color: grey;
-      
+  text-decoration: none; /* 3 */
+  color: currentColor; /* 4 */
+  font-weight: bold;
+  color: grey;
 }
-.footer__nav ul{
-    list-style: none;   
+.footer__nav ul {
+  list-style: none;
 }
-.footer__nav li{
-    padding: 0.5em;
-    font-family: 'Urbanist', sans-serif; 
-    font-size: 1em;
+.footer__nav li {
+  padding: 0.5em;
+  font-family: "Urbanist", sans-serif;
+  font-size: 1em;
 }
 /*footer info*/
-.footer__info{
-    display: flex;
-    flex-direction: column;
-    align-content: space-evenly;
-    padding-inline-start: 3em;
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
 }
-.footer__info p{
-    font-family: 'Urbanist', sans-serif;    
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 3em;
+.footer__info p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.9;
+
+  margin-bottom: 3em;
 }
-.redes__sociales img{
-    padding: 1em;
-    width: 50px;
+.redes__sociales img {
+  max-width: 55px;
 }
 
 /*Pagina talleres*/
 /*MAIN*/
-.volver__menu a{
-    font-family: 'Nunito', sans-serif;
-    color: #42B3B1;    
-    font-size: 1em;
-    text-align: center;
-    margin-left: 77%;    
+.volver__menu a {
+  font-family: "Nunito", sans-serif;
+  color: #42b3b1;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 77%;
 }
 
-.section__talleres__info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.section__talleres__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.talleres__info{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+.talleres__info {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
-.talleres__title{
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.8em;
-    font-weight: bold;
-    text-align: center;
+.talleres__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
 }
-.info__talleres{
-    font-family: 'Urbanist', sans-serif;
-    font-size: 1.3em;
-    width: 70%;
-    text-align:justify;
-    color: black;
-    font-weight: 900;
-    margin-left: 15%;
+.info__talleres {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.3em;
+  width: 70%;
+  text-align: justify;
+  color: black;
+  font-weight: 900;
+  margin-left: 15%;
 }
-.btn__talleres{
-    display: inline-block;
-    border-radius: 25px;
-    background-color: #42B3B1;
-    border: none;
-    color: #FFFFFF;   
-    padding:10px;
-    width: 19em;
-    height: 7em;
-    cursor: pointer;
-    margin: 7px;
+.btn__talleres {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #42b3b1;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  width: 19em;
+  height: 7em;
+  cursor: pointer;
+  margin: 7px;
 }
-.btn__talleres:hover{
-    background-color: #D7DC74;
+.btn__talleres:hover {
+  background-color: #d7dc74;
 }
-.btn__talleres a{
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-    color: #8A2666;
-    font-size: 1.6em;   
-    word-spacing: 10em; 
-    text-align: center;
+.btn__talleres a {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #8a2666;
+  font-size: 1.6em;
+  word-spacing: 10em;
+  text-align: center;
 }
-.talleres__botones{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 3em;
-    justify-content:space-evenly;
+.talleres__botones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 3em;
+  justify-content: space-evenly;
 }
