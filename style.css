@@ -48,6 +48,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;    
 }
+.secciones__info a{
+    text-decoration: none;
+}
 
 /*Footer*/
 .main__footer{
