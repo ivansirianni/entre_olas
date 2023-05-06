@@ -253,3 +253,21 @@
     font-weight: 900;
     margin-left: 15%;
 }
+.testimonios__img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20%;
+}
+.div_testimonio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.testimonio__img{
+width: 25rem;
+height: 25rem;
+margin-bottom: 5%;
+}
