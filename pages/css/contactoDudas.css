@@ -1,0 +1,107 @@
+/* reset */
+*::after,
+*::before,
+* {
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background: #F5F5F5;
+  }
+
+/*header pagina principal*/
+.menu__principal__p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #42b3b1;
+}
+.Title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+.Parrafo {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+/*Boton Whatsapp*/
+.button_whatsapp_main {
+  position: fixed;
+  bottom: 85px;
+  right: 50px;
+}
+.button_whatsapp_main a {
+  text-decoration: none;
+}
+
+/*Footer*/
+.main__footer {
+  background-color: #d7dc74;
+}
+
+/*footer menu*/
+.footer__menu h4 {
+  margin-left: 2.5em;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.nav__menu li a {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0a142f;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.footer__nav ul {
+  list-style: none;
+}
+.footer__nav li {
+  padding: 0.5em;
+  font-family: "Urbanist", sans-serif;
+  font-size: 1em;
+}
+/*footer info*/
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+.footer__info p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.9;
+
+  margin-bottom: 3em;
+}
+.redes__sociales a {
+  text-decoration: none;
+}
+.redes__sociales img {
+  max-width: 30px;
+}

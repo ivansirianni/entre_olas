@@ -6,6 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: #F5F5F5;
+}
 
 /*header pagina principal*/
 
@@ -39,7 +42,7 @@
 }
 
 .seccion__nosotros_container {
-  width: 829xp;
+contain: content;
 }
 .seccion__nosotros_title {
   background: #c5e3e9;
@@ -64,15 +67,16 @@
   line-height: 27px;
   color: #000000;
 }
-.nosotros_puntos img{
+.nosotros_puntos div img{
   width: 251px;
 height: 246px;
-}
-.nosotros_puntos :nth-child(2n){
-left: 900px;
-top: 80px;
 z-index: -1;
 }
+.nosotros_puntos_img-2{
+  top: 50px;
+  left: 65em;
+}
+
 .nosotros_box {
   bottom:120px;
 }
@@ -82,6 +86,20 @@ z-index: -1;
   background: #f7ee96;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+}
+.nosotros_box_text-2 {
+  width: 264px;
+  height: 170px;
+  background: #f7ee96;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: "Urbanist";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
 }
 .nosotros_box_text p {
   font-family: "Urbanist";
@@ -100,7 +118,18 @@ z-index: -1;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
-}
+
+
+}  
+.text_final{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #000000;
+  }
 .button_whatsapp_main {
   position: fixed;
   bottom: 85px;
