@@ -1,101 +1,99 @@
 .menu__principal__p {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-decoration-line: underline;
-  
-    color: #42b3b1;
-  }
-  
-  .introduction__title {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 41px;
-    text-align: center;
-  }
-  .introduction__description {
-    font-family: "Urbanist";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31px;
-    text-align: justify;
-  }
-  
- 
-  .seccion__nosotros_title {
-    background: #c5e3e9;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px 0px 0px 0px;
-    width: 991px;
-    height: 127px;
-    font-family: "Urbanist";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 2px;
-    color: #000000;
-  }
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  text-decoration-line: underline;
 
-  .nosotros_puntos div img{
-    width: 251px;
+  color: #42b3b1;
+}
+
+.introduction__title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+}
+.introduction__description {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: justify;
+}
+
+.seccion__nosotros_title {
+  background: #c5e3e9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 0px 0px 0px;
+  width: 991px;
+  height: 127px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 2px;
+  color: #000000;
+}
+
+.nosotros_puntos div img {
+  width: 251px;
   height: 246px;
   z-index: -1;
-  }
-  .nosotros_puntos_img-2{
-    top: 50px;
-    left: 65em;
-  }
-  
-.nosotros_box{
+}
+.nosotros_puntos_img-2 {
+  top: 50px;
+  left: 65em;
+}
+
+.nosotros_box {
   bottom: 30px;
   right: 50px;
- 
 }
-.nosotros_box img{
-object-fit: cover;
-    height: 401px;
-    width: 250px;
-    border-radius: 20px;
+.nosotros_box img {
+  object-fit: cover;
+  height: 401px;
+  width: 250px;
+  border-radius: 20px;
 }
-  .nosotros_box_text-2 {
-    width: 264px;
-    height: 170px;
-    background: #f7ee96;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    font-family: "Urbanist";
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #000000;
-  }
-  .nosotros_box_text p {
-    font-family: "Urbanist";
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #000000;
-  }
-  
-  .nosotros_descripcion p {
-    font-family: "Urbanist";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-  }  
-  /* reset */
+.nosotros_box_text-2 {
+  width: 264px;
+  height: 170px;
+  background: #f7ee96;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: "Urbanist";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+.nosotros_box_text p {
+  font-family: "Urbanist";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.nosotros_descripcion p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+/* reset */
 *::after,
 *::before,
 * {
@@ -103,21 +101,21 @@ object-fit: cover;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background: #F5F5F5;
+body {
+  background: #f5f5f5;
 }
 /*header pagina principal*/
 .menu__principal__p {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-decoration-line: underline;
-  
-    color: #42b3b1;
-  }
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #42b3b1;
+}
 .title {
   font-family: "Nunito";
   font-style: normal;
@@ -135,7 +133,7 @@ body{
   text-align: justify;
 }
 .button_center {
-  float:right;
+  float: right;
   width: 250px;
   height: 73px;
   background-color: #42b3b1;
@@ -143,9 +141,9 @@ body{
   border: none;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
-.button_center:hover{
-    transition: .31s ease-out;
-    background-color: #D7DC74;
+.button_center:hover {
+  transition: 0.31s ease-out;
+  background-color: #d7dc74;
 }
 
 .text_button {
@@ -158,8 +156,8 @@ body{
   color: #8a2666;
   text-decoration: none;
 }
-.redes__sociales_main img{
-    width: 55px;
+.redes__sociales_main img {
+  width: 55px;
 }
 
 /*Boton Whatsapp*/
