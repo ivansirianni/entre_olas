@@ -133,6 +133,23 @@
     margin-left: 15%;
     width: 70%;
 }
+
+.videos__title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+.info__videos{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.3em;
+    width: 70%;
+    text-align:center;
+    color: black;
+    font-weight: 900;
+    margin-left: 15%;
+}
 .info__talleres{
     font-family: 'Urbanist', sans-serif;
     font-size: 1.3em;
