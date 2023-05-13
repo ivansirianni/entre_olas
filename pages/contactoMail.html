@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre Olas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/contactoMail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/nunito" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="main__header">
+        <div class="flecha">
+            <a href="../index.html"><img src="../assets/icons/flecha.png" alt="flecha__back"></a>
+        </div>
+        <div class="header__logo">
+            <a href="../index.html"><img src="../assets/icons/logo2.png" alt="Entre_Olas_Logo"></a>
+        </div> 
+        <div class="volver_menu">
+            <a href="../index.html">
+                <p class="menu__principal__p">
+                    Volver a menú principal
+                </p>
+            </a>
+        </div> 
+               
+    </header>
+
+    <main class="main__page container my-5 py-5">
+        <section class="container mx-5 px-5">
+            <div>
+                <p class="Title text-center">Mandanos un mensaje</p>
+                <p class="Parrafo mx-auto text-center w-75">Completa el siguiente formulario con el mensaje que nos quieras realizar, y a la
+                    brevedad te estaremos respondiendo.</p>
+            </div>
+            <div class="container d-flex justify-content-center">
+                <form action="https://formsubmit.co/entreolas.latam@gmail.com" method="POST" class="row justify-content-center my-5 ">
+                    <input type="text" name="Email" placeholder="Email" class="row input_form my-3">
+                    <input type="text" name="Asunto" placeholder="Asunto" class="row input_form my-3">
+
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"
+                        class="row input_form_message align-self-start my-3"></textarea>
+                    <button type="submit" class="button_form mt-3">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+
+        </section>
+
+        <!--icono flotante de WhatsApp-->
+        <section>
+            <div class="p-5 my-5 button_whatsapp_main">
+                <a href="https://api.whatsapp.com/send/?phone=541169648814" target="_blank">
+                    <img src="../assets/img/whatsapp-text.svg" alt="">
+                    <img src="../assets/img/whatsapp-sticky.svg" alt="">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main__footer  ">
+        <div class="container ">
+            <div class="row py-5 justify-content-between">
+                <div class="footer__logo col-auto ">
+                    <a href="../index.html">
+                        <img src="../assets/icons/logo2.png" alt="Entre_Olas_Logo" class="">
+                    </a>
+                </div>
+
+                <div class="footer__info col-auto ">
+                    <p class="cel">+52 5649 472 787</p>
+                    <p class="footer__mail">entreolas.latam@gmail.com</p>
+                    <div class="redes__sociales">
+                        <a href="https://api.whatsapp.com/send/?phone=541169648814">
+                            <img src="../assets/img/whatsapp.svg" alt="whatsapp">
+                        </a>
+                        <a href="">
+                            <img src="../assets/img/mail.svg" alt="email" class="mx-4">
+                        </a>
+                        <a href="https://www.instagram.com/entreolas_latam/">
+                            <img src="../assets/img/insta.svg" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__menu col-auto ">
+                    <h4 class="footer__title">Menú</h4>
+                    <nav class="footer__nav">
+                        <ul class="nav__menu">
+                            <li><a href="./pages/quienesSomos.html">Quienes somos</li></a>
+                            <li><a href="./pages/talleres.html">Talleres</li></a>
+                            <li><a href="./pages/materialDeInteres.html">Material de interés</li></a>
+                            <li><a href="./pages/contacto.html">Contacto</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

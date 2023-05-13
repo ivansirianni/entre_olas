@@ -7,41 +7,47 @@
   box-sizing: border-box; }
 
 
-/*header pagina principal*/
-.main__header{
-    width: 100%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   margin-top: 5%;
-   justify-content: space-evenly;
- }
- .flecha{
-    margin-left: 3em;
-    margin-top: 3em;
- }
-.header__logo{
-    margin-left: 35%;
-    margin-bottom: 3em;
-}
-.header__logo img{
-    width: 200px;    
+/*---------------------------------header pagina principal*/
+.main__header{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .flecha{   
+     margin-left: 3rem;
+  }
+  .header__logo{    
+     margin-bottom: 3em;
+       
+  }
+  .header__logo img{
+     width: 200px; 
+     margin-left: 13.5rem;   
+  }
+  
+  .header__logo img:hover{
+     transform: scale(1.1);
+  }
+  .menu__principal__p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 1rem;
+    color: #42b3b1;    
+  }
+
+.header__logo__main img{
+    margin-left: 5rem;
 }
 
-.header__logo img:hover{
-    transform: scale(1.1);
-}
-
-.navbar{
-    margin-left: 20%;
-    margin-bottom: 2em;
-}
-.header__input{
-    width: 15rem;
-   border: 0;
-}
-
-/*SECCIONES*/
+/*-------------------------------------------SECCIONES*/
 .main__page{
     margin-top: 10%;
     height: 20rem;
@@ -50,10 +56,65 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;    
+    justify-content: space-evenly; 
+    height: 100%;   
 }
 
-/*Footer*/
+.secciones__info a {
+    text-decoration: none;
+    width: 200px;
+    color: #8A2666;
+  }
+  
+  .secciones__img {
+    width: 136px;
+    height: 167px;
+    fill: #42b3b1;
+  }
+  .secciones__img :hover {
+   transition:  0.15s ease-out;
+  padding: 0;
+  margin: 0;
+  
+  }
+  .secciones__info :hover {
+    transition: 0.15s ease-out;
+    fill: #D7DC74;
+    transform: scale(1.1);
+  }
+
+/*---------------------------------------------------------slide*/
+.section__slides{
+    margin-top: 10rem;
+    width: 90%;   
+    margin-left: 5%; 
+}
+.slide__uppercase {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #42b3b1;
+  }
+  .slide__p {
+    font-family: "Urbanist";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #737373;
+  }
+  .button_whatsapp_main{
+    position: fixed ;
+    bottom: 85px;
+    right: 50px;}
+  .button_whatsapp_main a{ 
+    text-decoration: none;}
+
+/*-----------------------------------------------------Footer*/
 .main__footer{
     display: flex;
     flex-direction: row;
@@ -62,8 +123,9 @@
     flex-wrap: wrap;
     background-color: #D7DC74;
     height: 100%;
+    margin-top: 30rem;
 }
-/*footer menu*/
+/*------------------------------------------------footer menu*/
 .footer__menu h4{
     margin-left: 2.5em ;
     font-family: 'Urbanist', sans-serif;
@@ -86,7 +148,7 @@
     font-family: 'Urbanist', sans-serif; 
     font-size: 1em;
 }
-/*footer info*/
+/*------------------------------------------footer info*/
 .footer__info{
     display: flex;
     flex-direction: column;
@@ -105,8 +167,8 @@
     width: 50px;
 }
 
-/*Pagina talleres*/
-/*MAIN*/
+/*--------------------------------------------Pagina talleres*/
+/*--------------------------------------------MAIN*/
 .volver__menu a{
     font-family: 'Nunito', sans-serif;
     color: #42B3B1;    
@@ -178,6 +240,7 @@
 }
 .btn__talleres:hover{
     background-color: #D7DC74;
+    transition: .31s ease-out;
 }
 .btn__talleres a{
     font-family: 'Nunito', sans-serif;
@@ -188,19 +251,18 @@
     text-align: center;
 }
 .btn__talleres2{
-    display: inline-block;
-    border-radius: 25px;
-    background-color: #42B3B1;
-    border: none;
-    color: #FFFFFF;   
-    padding:10px;
-    width: 19em;
-    height: 7em;
-    cursor: pointer;
+    width: 310px;
+  height: 106px;
+  background-color: #42b3b1;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
     margin: 7px;
+    padding: 1%;
 }
 .btn__talleres2:hover{
     background-color: #D7DC74;
+    transition: .31s ease-out;
 }
 .btn__talleres2 a{
     font-family: 'Urbanist', sans-serif;
@@ -211,19 +273,16 @@
     font-weight: 800;
 }
 .btn__talleres3{
-    display: inline-block;
-    border-radius: 25px;
-    background-color: #42B3B1;
+    width: 310px;
+    height: 106px;
+    background-color: #42b3b1;
+    border-radius: 30px;
     border: none;
-    color: #FFFFFF;   
-    padding:10px;
-    width: 25em;
-    height: 5em;
-    cursor: pointer;
-    margin: 7px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 .btn__talleres3:hover{
     background-color: #D7DC74;
+    transition: .31s ease-out;
 }
 .btn__talleres3 a{
     font-family: 'Nunito', sans-serif;
@@ -262,7 +321,7 @@
       
 }
 
-/*TESTIMONIOS*/
+/*--------------------------------------------TESTIMONIOS*/
 .testimonios{
     margin-top: 10%;
 }
@@ -293,4 +352,25 @@
 width: 25rem;
 height: 25rem;
 margin-bottom: 5%;
+}
+
+.button_center{
+    width: 310px;
+  height: 106px;
+  background-color: #42b3b1;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+/*---------------------MEDIA QUERIES*/
+/*---------------------MOBILE*/
+@media screen and (min-width: 600px){
+
+}
+
+/*---------------------TABLET*/
+@media screen and (min-width: 800px){
+
 }
