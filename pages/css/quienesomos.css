@@ -10,7 +10,30 @@ body{
   background: #F5F5F5;
 }
 
-/*header pagina principal*/
+/*header*/
+.main__header{    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content:space-around;
+  align-items: center;
+}
+.flecha{   
+   margin-left: 3rem;
+}
+.header__logo{    
+   margin-bottom: 3em;
+     
+}
+.header__logo img{
+   width: 200px; 
+   margin-left: 13.5rem;   
+}
+
+.header__logo img:hover{
+   transform: scale(1.1);
+}
 
 .menu__principal__p {
   font-family: "Nunito";
@@ -20,9 +43,11 @@ body{
   line-height: 33px;
   text-align: center;
   text-decoration-line: underline;
-
+  margin-top: 1rem;
   color: #42b3b1;
 }
+
+/*header pagina principal*/
 
 .introduction__title {
   font-family: "Nunito";
@@ -35,9 +60,12 @@ body{
 .introduction__description {
   font-family: "Urbanist";
   font-style: normal;
-  font-weight: 500;
+
+  font-weight: 600;
   font-size: 24px;
   line-height: 29px;
+  width: 90%;
+
   text-align: justify;
 }
 
@@ -194,3 +222,4 @@ z-index: -1;
 .redes__sociales img {
   max-width: 55px;
 }
+

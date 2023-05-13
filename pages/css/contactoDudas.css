@@ -11,7 +11,32 @@ body{
     background: #F5F5F5;
   }
 
-/*header pagina principal*/
+
+  /*Header*/
+.main__header{    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content:space-around;
+  align-items: center;
+}
+.flecha{   
+   margin-left: 3rem;
+}
+.header__logo{    
+   margin-bottom: 3em;
+     
+}
+.header__logo img{
+   width: 200px; 
+   margin-left: 13.5rem;   
+}
+
+.header__logo img:hover{
+   transform: scale(1.1);
+}
+
 .menu__principal__p {
   font-family: "Nunito";
   font-style: normal;
@@ -21,8 +46,12 @@ body{
   text-align: center;
   text-decoration-line: underline;
 
+  margin-top: 1rem;
   color: #42b3b1;
+  
 }
+/*header pagina principal*/
+
 .Title {
   font-family: "Nunito";
   font-style: normal;
