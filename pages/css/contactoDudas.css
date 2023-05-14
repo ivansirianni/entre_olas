@@ -18,5 +18,17 @@
   color: #000000;
 }
 
+@media (max-width:640px){
+  .Title{
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .Parrafo{
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
 
 

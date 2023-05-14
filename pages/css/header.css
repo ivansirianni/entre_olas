@@ -38,6 +38,7 @@ body {
 }
 @media (max-width: 640px) {
   .menu__principal__p {
+    display: none;
     visibility: hidden;
   }
 }

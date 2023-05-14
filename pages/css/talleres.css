@@ -1,4 +1,3 @@
-
 /*-------------------------------------------SECCIONES*/
 .main__page {
   margin-top: 10%;
@@ -9,14 +8,14 @@
   text-decoration: none;
   width: 200px;
 }
-.secciones__title{
-  font-family: 'Nunito';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 27px;
-text-align: center;
-color: #8A2666;
+.secciones__title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #8a2666;
 }
 .secciones__img {
   width: 136px;
@@ -33,7 +32,6 @@ color: #8A2666;
   fill: #d7dc74;
   transform: scale(1.1);
 }
-
 
 /*--------------------------------------------Pagina talleres*/
 /*--------------------------------------------MAIN*/
@@ -116,6 +114,18 @@ color: #8A2666;
   height: 7em;
   cursor: pointer;
   margin: 7px;
+}
+@media (max-width: 640px) {
+  .btn__talleres {
+    width: 195px !important;
+  }
+  .testimonio__img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .info__talleres {
+    font-size: 18px;
+  }
 }
 .btn__talleres:hover {
   background-color: #d7dc74;
@@ -201,15 +211,44 @@ color: #8A2666;
 }
 
 /*--------------------------------------------TESTIMONIOS*/
-@media (max-width:800px){
-  .img_hidden{
+@media (max-width: 640px) {
+  .img_hidden {
     display: none;
-visibility: hidden;
-}
-.testimonio__img {
-  width: 250px;
-  height:250px;
- }
+    visibility: hidden;
+  }
+  .testimonio__img {
+    width: 250px;
+    height: 250px;
+  }
+  .btn__talleres3 {
+    width: 200px;
+    height: 70px;
+  }
+  .videos__title {
+    font-size: 20px;
+  }
+  .info__videos {
+    font-size: 17px;
+  }
+  .talleres__title{
+    font-size: 20px;
+  }
+  .talleres__title2{
+    font-size: 20px;
+  }
+  .info__talleres{
+    font-size: 14px;
+  }
+  .btn__talleres2{
+    width: 200px;
+    height: 70px;
+    font-size: 13px;
+  }
+  .btn__talleres3{
+    width: 200px;
+    height: 70px;
+    font-size: 13px;
+  }
 }
 
 .testimonios {
@@ -235,13 +274,10 @@ visibility: hidden;
 .div_testimonio {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  
 }
 .testimonio__img {
- width: 25rem;
- height: 25rem;
+  width: 25rem;
+  height: 25rem;
   margin-bottom: 5%;
 }
 
