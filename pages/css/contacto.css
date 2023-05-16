@@ -52,6 +52,26 @@
   justify-content: space-evenly; 
 }
 
-
+@media (max-width:640px){
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .button_center {
+    width: 240px;
+    height: 60px;
+  }
+  .text_button {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .redes__sociales_main img{
+    width: 20px;
+}
+}
 
 

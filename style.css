@@ -91,6 +91,9 @@ color: #8A2666;
 }
 
 @media (max-width:640px){
+  .header__logo img {
+    width: 150px;
+  }
   .secciones__info a{
     width: 100px;
   }
@@ -102,7 +105,14 @@ color: #8A2666;
     
     height: 120px;
   }
-
+  .slide__uppercase {
+    font-size:25px;
+    line-height: 40px;
+  }
+  .slide__p {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
 

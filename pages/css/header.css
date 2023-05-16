@@ -41,4 +41,7 @@ body {
     display: none;
     visibility: hidden;
   }
+  .header__logo img {
+    width: 150px;
+  }
 }

@@ -1,6 +1,10 @@
 
 /*header pagina principal*/
 
+body{
+  width: 100% !important;
+  overflow-x: hidden;
+}
 .introduction__title {
   font-family: "Nunito";
   font-style: normal;
@@ -126,7 +130,7 @@ z-index: -1;
       height: 120px;
     }
     .nosotros_box{
-      height: 120px;
+      height: 160px !important;
     }
     .nosotros_box img{
       width: 140px;
@@ -156,7 +160,7 @@ z-index: -1;
       right: 10px;
     }
     .nosotros_box2{
-      height: 260px;
+      height: 260px !important;
     }
     .nosotros_box_img{
       width: 140px;

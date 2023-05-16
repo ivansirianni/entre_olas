@@ -74,4 +74,7 @@
     bottom: 0px;
     right: 20px;
   }
+  .footer__logo img{
+    width: 150px;
+  }
 }
