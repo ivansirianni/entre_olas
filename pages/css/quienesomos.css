@@ -1,51 +1,10 @@
-/* reset */
-*::after,
-*::before,
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  background: #F5F5F5;
-}
-/*header*/
-.main__header{    
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 5%;
-  justify-content:space-around;
-  align-items: center;
-}
-.flecha{   
-   margin-left: 3rem;
-}
-.header__logo{    
-   margin-bottom: 3em;
-     
-}
-.header__logo img{
-   width: 200px; 
-   margin-left: 13.5rem;   
-}
 
-.header__logo img:hover{
-   transform: scale(1.1);
-}
-.menu__principal__p {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 33px;
-  text-align: center;
-  text-decoration-line: underline;
-  margin-top: 1rem;
-  color: #42b3b1;
-  
-}
 /*header pagina principal*/
+
+body{
+  width: 100% !important;
+  overflow-x: hidden;
+}
 .introduction__title {
   font-family: "Nunito";
   font-style: normal;
@@ -57,16 +16,15 @@ body{
 .introduction__description {
   font-family: "Urbanist";
   font-style: normal;
+
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   width: 90%;
+
   text-align: justify;
 }
 
-.seccion__nosotros_container {
-contain: content;
-}
 .seccion__nosotros_title {
   background: #c5e3e9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -141,8 +99,6 @@ z-index: -1;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
-
-
 }  
 .text_final{
   font-family: 'Nunito';
@@ -153,69 +109,73 @@ z-index: -1;
   text-align: center;
   color: #000000;
   }
+
+  /*Boton Whatsapp*/
 .button_whatsapp_main {
   position: fixed;
-  bottom: 85px;
-  right: 50px;
+  bottom: 0px;
+  right: 20px;
 }
 .button_whatsapp_main a {
   text-decoration: none;
 }
+  @media (max-width:1000px){
+    .nosotros_puntos{
+      display:none;
+      visibility: hidden;
+    }
+  }
 
-/*Footer*/
-.main__footer {
-  background-color: #d7dc74;
-}
-
-/*footer menu*/
-.footer__menu h4 {
-  margin-left: 2.5em;
-  font-family: "Urbanist", sans-serif;
-  font-weight: bold;
-  font-size: 1em;
-}
-
-.nav__menu li a {
-  font-family: "Urbanist";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #0a142f;
-  opacity: 0.7;
-  text-decoration: none;
-}
-
-.footer__nav ul {
-  list-style: none;
-}
-.footer__nav li {
-  padding: 0.5em;
-  font-family: "Urbanist", sans-serif;
-  font-size: 1em;
-}
-/*footer info*/
-.footer__info {
-  display: flex;
-  flex-direction: column;
-  align-content: space-evenly;
-}
-.footer__info p {
-  font-family: "Urbanist";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #000000;
-  opacity: 0.9;
-
-  margin-bottom: 3em;
-}
-.redes__sociales a {
-  text-decoration: none;
-}
-.redes__sociales img {
-  max-width: 55px;
-}
-
-
+  @media (max-width:767px){
+    .introduction__title {
+      font-size: 22px;
+      line-height: 25px;
+    }
+    .introduction__description {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .seccion__nosotros_title {
+      width: 110%;
+      height: 120px;
+    }
+    .nosotros_box{
+      height: 160px !important;
+    }
+    .nosotros_box img{
+      width: 140px;
+      top: 100px;
+      right: 20px;
+    }
+    .seccion__nosotros_title :first-child {
+      font-size: 18px;
+      line-height: 2px;
+    }
+    .seccion__nosotros_title :nth-child(2n) {
+      font-size:14px;
+      line-height: 20px;
+    }
+    .nosotros_box_text{
+      left: 100px;
+      width: 150px;
+      z-index: -1;
+    }
+    .nosotros_descripcion p {
+      font-size: 10px;
+      line-height: 15px;
+    }  
+    .nosotros_box_text-2{
+      top: 90px;
+      z-index: -1;
+      right: 10px;
+    }
+    .nosotros_box2{
+      height: 260px !important;
+    }
+    .nosotros_box_img{
+      width: 140px;
+    }
+    .text_final{
+      font-size: 20px;
+      }
+  }

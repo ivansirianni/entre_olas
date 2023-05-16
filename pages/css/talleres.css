@@ -1,0 +1,300 @@
+/*-------------------------------------------SECCIONES*/
+.main__page {
+  margin-top: 10%;
+  height: 20rem;
+}
+
+.secciones__info a {
+  text-decoration: none;
+  width: 200px;
+}
+.secciones__title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #8a2666;
+}
+.secciones__img {
+  width: 136px;
+  height: 167px;
+  fill: #42b3b1;
+}
+.secciones__img :hover {
+  transition: 0.15s ease-out;
+  padding: 0;
+  margin: 0;
+}
+.secciones__info :hover {
+  transition: 0.15s ease-out;
+  fill: #d7dc74;
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------Pagina talleres*/
+/*--------------------------------------------MAIN*/
+.volver__menu a {
+  font-family: "Nunito", sans-serif;
+  color: #42b3b1;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 77%;
+}
+
+.section__talleres__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.talleres__info {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.talleres__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.info__talleres {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.3em;
+  width: 70%;
+  text-align: justify;
+  color: black;
+  font-weight: 900;
+  margin-left: 15%;
+}
+.talleres__title2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.videos__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+}
+.info__videos {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.3em;
+  width: 70%;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  margin-left: 15%;
+}
+.info__talleres {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.3em;
+  width: 70%;
+  text-align: justify;
+  color: black;
+  font-weight: 900;
+  margin-left: 15%;
+}
+
+.btn__talleres {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #42b3b1;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  width: 19em;
+  height: 7em;
+  cursor: pointer;
+  margin: 7px;
+}
+@media (max-width: 640px) {
+  .btn__talleres {
+    width: 195px !important;
+  }
+  .testimonio__img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .info__talleres {
+    font-size: 18px;
+  }
+}
+.btn__talleres:hover {
+  background-color: #d7dc74;
+  transition: 0.31s ease-out;
+}
+.btn__talleres a {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #8a2666;
+  font-size: 1.6em;
+  word-spacing: 10em;
+  text-align: center;
+}
+
+.btn__talleres2 {
+  width: 310px;
+  height: 106px;
+  background-color: #42b3b1;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  margin: 7px;
+  padding: 1%;
+}
+.btn__talleres2:hover {
+  background-color: #d7dc74;
+  transition: 0.31s ease-out;
+}
+.btn__talleres2 a {
+  font-family: "Urbanist", sans-serif;
+  text-decoration: none;
+  color: #8a2666;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 800;
+}
+.btn__talleres3 {
+  width: 310px;
+  height: 106px;
+  background-color: #42b3b1;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.btn__talleres3:hover {
+  background-color: #d7dc74;
+  transition: 0.31s ease-out;
+}
+.btn__talleres3 a {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #8a2666;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 800;
+}
+.talleres__botones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 3em;
+  justify-content: space-evenly;
+}
+
+.presenciales_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.talleres__presenciales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+.talleres__presenciales2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+/*--------------------------------------------TESTIMONIOS*/
+@media (max-width: 640px) {
+  .img_hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .testimonio__img {
+    width: 250px;
+    height: 250px;
+  }
+  .btn__talleres3 {
+    width: 200px;
+    height: 70px;
+  }
+  .videos__title {
+    font-size: 20px;
+  }
+  .info__videos {
+    font-size: 17px;
+  }
+  .talleres__title{
+    font-size: 20px;
+  }
+  .talleres__title2{
+    font-size: 20px;
+  }
+  .info__talleres{
+    font-size: 14px;
+  }
+  .btn__talleres2{
+    width: 200px;
+    height: 70px;
+    font-size: 13px;
+  }
+  .btn__talleres3{
+    width: 200px;
+    height: 70px;
+    font-size: 13px;
+  }
+}
+
+.testimonios {
+  margin-top: 10%;
+}
+.info__testimonios {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.3em;
+  width: 70%;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  margin-left: 15%;
+}
+
+.testimonios__img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20%;
+}
+.div_testimonio {
+  display: flex;
+  flex-direction: row;
+}
+.testimonio__img {
+  width: 25rem;
+  height: 25rem;
+  margin-bottom: 5%;
+}
+
+.button_center {
+  width: 310px;
+  height: 106px;
+  background-color: #42b3b1;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+/*---------------------MEDIA QUERIES*/
+/*---------------------MOBILE*/
+@media screen and (min-width: 600px) {
+}
+
+/*---------------------TABLET*/
+@media screen and (min-width: 800px) {
+}
