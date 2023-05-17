@@ -109,6 +109,17 @@ z-index: -1;
   text-align: center;
   color: #000000;
   }
+
+
+  /*Boton Whatsapp*/
+.button_whatsapp_main {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+}
+.button_whatsapp_main a {
+  text-decoration: none;
+}
   @media (max-width:1000px){
     .nosotros_puntos{
       display:none;

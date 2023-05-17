@@ -10,6 +10,7 @@
 }
 .flecha {
   margin-left: 3rem;
+
 }
 
 .header__logo img {
@@ -90,6 +91,13 @@ color: #8A2666;
   color: #737373;
 }
 
+.secciones_content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 @media (max-width:640px){
   .header__logo img {
     width: 150px;
@@ -112,6 +120,29 @@ color: #8A2666;
   .slide__p {
     font-size: 13px;
     line-height: 20px;
+
+  }
+  .secciones_content{
+   width: 60%;
+   margin-left: 25%;
+  }
+  .imgWhatsappText{
+    width: 100px;
+  }
+  .imgWhatsapp{
+    width: 40px;
+  }
+  .button_whatsapp_main{
+    bottom: 0px;
+    right: 0px;
+  }
+  .footer__logo img{
+    width: 150px;
+  }
+  .footer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
