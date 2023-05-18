@@ -124,7 +124,7 @@ color: #8A2666;
   }
   .secciones_content{
    width: 60%;
-   margin-left: 25%;
+   
   }
   .imgWhatsappText{
     width: 100px;
@@ -144,9 +144,4 @@ color: #8A2666;
     flex-direction: column;
     align-items: center;
   }
-}
-
-
-.main__footer {
-
 }

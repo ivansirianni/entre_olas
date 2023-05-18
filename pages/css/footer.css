@@ -68,8 +68,7 @@
 /*Boton Whatsapp*/
 .button_whatsapp_main {
   position: fixed;
-  bottom: 0px;
-  right: 20px;
+ 
 }
 .button_whatsapp_main a {
   text-decoration: none;
@@ -83,7 +82,8 @@
   }
   .button_whatsapp_main{
     bottom: 0px;
-    right: 20px;
+    right: 0px;
+    
   }
   .footer__logo img{
     width: 150px;
