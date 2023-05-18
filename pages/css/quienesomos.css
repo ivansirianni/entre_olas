@@ -2,8 +2,14 @@
 /*header pagina principal*/
 
 body{
+  margin: 0;
+  padding: 0;
+  clear:right;
   width: 100% !important;
   overflow-x: hidden !important;
+}
+.container_{
+  width: 100% !important;
 }
 .introduction__title {
   font-family: "Nunito";
@@ -110,16 +116,6 @@ z-index: -1;
   color: #000000;
   }
 
-
-  /*Boton Whatsapp*/
-.button_whatsapp_main {
-  position: fixed;
-  bottom: 0px;
-  right: 20px;
-}
-.button_whatsapp_main a {
-  text-decoration: none;
-}
   @media (max-width:1000px){
     .nosotros_puntos{
       display:none;
@@ -128,6 +124,7 @@ z-index: -1;
   }
 
   @media (max-width:767px){
+   
     .introduction__title {
       font-size: 22px;
       line-height: 25px;

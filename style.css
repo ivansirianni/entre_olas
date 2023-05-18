@@ -69,8 +69,8 @@ color: #8A2666;
 
 /*---------------------------------------------------------slide*/
 .section__slides {
-  margin-top: 10rem;
-  width: 90%;
+  
+  width: 80%;
 }
 .slide__uppercase {
   font-family: "Nunito", sans-serif;
@@ -132,10 +132,7 @@ color: #8A2666;
   .imgWhatsapp{
     width: 40px;
   }
-  .button_whatsapp_main{
-    bottom: 0px;
-    right: 0px;
-  }
+
   .footer__logo img{
     width: 150px;
   }
