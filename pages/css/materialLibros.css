@@ -1,3 +1,7 @@
+body{
+  width: 100% !important;
+  overflow-x: hidden;
+}
 .introduction__title {
   font-family: "Nunito";
   font-style: normal;
