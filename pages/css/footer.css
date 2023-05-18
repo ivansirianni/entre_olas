@@ -4,6 +4,7 @@ body {
 /*Footer*/
 .main__footer {
   background-color: #d7dc74;
+  width: 100%;
 }
 
 /*footer menu*/
@@ -59,6 +60,7 @@ body {
 .redes__sociales img {
   max-width: 30px;
 }
+
 .footer_content{
   display: flex;
   flex-direction: row;
@@ -70,13 +72,11 @@ body {
 .button_whatsapp_main {
   position: fixed;
   bottom: 0px;
-  right: 20px;
+  right: 0px;
 }
 .button_whatsapp_main a {
   text-decoration: none;
 }
-
-
 @media (max-width:640px){
   .imgWhatsappText{
     width: 100px;
@@ -86,11 +86,14 @@ body {
   }
   .button_whatsapp_main{
     bottom: 0px;
-    right: 10px;
+
+    right: 0px;
+
   }
   .footer__logo img{
     width: 150px;
   }
+
   .footer_content{
     display: flex;
     flex-direction: column;

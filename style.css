@@ -12,6 +12,7 @@ body {
 }
 .flecha {
   margin-left: 3rem;
+
 }
 
 .header__logo img {
@@ -91,6 +92,7 @@ color: #8A2666;
   text-align: center;
   color: #737373;
 }
+
 .secciones_content{
   display: flex;
   flex-direction: row;
@@ -120,9 +122,11 @@ color: #8A2666;
   .slide__p {
     font-size: 13px;
     line-height: 20px;
+
   }
   .secciones_content{
    width: 60%;
+
    margin-left: 18%;
   }
   .imgWhatsappText{
@@ -144,5 +148,3 @@ color: #8A2666;
     align-items: center;
   }
 }
-
-

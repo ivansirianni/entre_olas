@@ -3,7 +3,7 @@
 
 body{
   width: 100% !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .introduction__title {
   font-family: "Nunito";
@@ -109,6 +109,7 @@ z-index: -1;
   text-align: center;
   color: #000000;
   }
+
 
   /*Boton Whatsapp*/
 .button_whatsapp_main {
