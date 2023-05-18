@@ -1,4 +1,6 @@
-
+body {
+  overflow-x: hidden;
+}
 /*---------------------------------header pagina principal*/
 
 .main__header {
@@ -124,7 +126,8 @@ color: #8A2666;
   }
   .secciones_content{
    width: 60%;
-   
+
+   margin-left: 18%;
   }
   .imgWhatsappText{
     width: 100px;
@@ -134,7 +137,7 @@ color: #8A2666;
   }
   .button_whatsapp_main{
     bottom: 0px;
-    right: 0px;
+    right: -45px;
   }
   .footer__logo img{
     width: 150px;

@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 /*-------------------------------------------SECCIONES*/
 .main__page {
   margin-top: 10%;

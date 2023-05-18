@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 /*Footer*/
 .main__footer {
   background-color: #d7dc74;
@@ -83,7 +86,9 @@
   }
   .button_whatsapp_main{
     bottom: 0px;
+
     right: 0px;
+
   }
   .footer__logo img{
     width: 150px;
