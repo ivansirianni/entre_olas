@@ -42,6 +42,10 @@ body {
   left: 65em;
 }
 @media (max-width: 640px) {
+  main{
+    width: 100%;
+    overflow-x: hidden;
+  }
   .seccion__nosotros_title {
     width: 100%;
     line-height: 16px;
