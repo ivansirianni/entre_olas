@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/entreolas/public_html/
+    - /bin/rsync -av public/ $DEPLOYPATH
+  
