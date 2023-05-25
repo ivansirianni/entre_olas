@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/usuario/public_html  # Ruta de despliegue en cPanel, reemplaza "usuario" con tu nombre de usuario en cPanel
+    - export DEPLOYPATH=/home/entreola/public_html  # Ruta de despliegue en cPanel, reemplaza "usuario" con tu nombre de usuario en cPanel
 
     - git pull origin main  # Obtener los últimos cambios del repositorio, asumiendo que estás en la rama 'main'
       
