@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/entreola/public_html/
-    - /bin/rsync -av public/ $DEPLOYPATH
-  
+    - /bin/cp -R images $DEPLOYPATH
